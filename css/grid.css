@@ -5,28 +5,8 @@
        body {margin: 0; padding: 0;}
 
         h1, h2, h3, h4, h5, p {
-               font-family: 'Nexa', sans-serif;
-               font-weight: normal;
-        }
-
-        @font-face {
-               font-family: 'Nexa';
-               src: url('../fonts/NexaBold.eot');
-               src: url('../fonts/NexaBold.eot') format('embedded-opentype'),
-               url('../fonts/NexaBold.woff') format('woff'),
-               url('../fonts/NexaBold.ttf') format('truetype');
-               font-weight: bold;
-               font-style: normal;
-        }
-
-        @font-face {
-               font-family: 'Nexa';
-               src: url('../fonts/NexaLight.eot');
-               src: url('../fonts/NexaLight.eot') format('embedded-opentype'),
-               url('../fonts/NexaLight.woff') format('woff'),
-               url('../fonts/NexaLight.ttf') format('truetype');
-               font-weight: 300;
-               font-style: normal;
+            font-family: 'Merriweather', serif;
+            font-weight: normal;
         }
         .container {
             display: grid;
@@ -60,7 +40,7 @@
          margin-right: 10px;}
 
          .superior span{
-         font-family: 'Nexa',sans-serif;
+         font-family: 'Merriweather', serif;
          font-size: 12px;
          padding: 10px 10px 0 0;
          }
@@ -101,7 +81,7 @@
          color: gray;
          text-decoration: none;
          margin-left: 25px;
-         font-family: 'Nexa', sans-serif;
+         font-family: 'Merriweather', serif;;
          font-size: 12px;
          font-weight: 600;
          }
@@ -349,7 +329,7 @@
         }
         main p{
          font-size: 25px;
-         font-family: 'Nexa', sans-serif;
+         font-family: 'Merriweather', serif;;
          font-weight: 300; 
          line-height: 30px;
          text-align:justify;  
@@ -358,7 +338,7 @@
 
          main p.quienes{
          font-size: 18px;
-         font-family: 'Nexa', sans-serif;
+         font-family: 'Merriweather', serif;;
          font-weight: 500; 
          line-height: 26px;
          text-align:justify; 
@@ -368,17 +348,17 @@
          main a {
           text-decoration: none;
           color: black;
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           font-weight: 600;
          }
 
-        main h1{font-family: 'Nexa', sans-serif;
+        main h1{font-family: 'Merriweather', serif;;
          font-size: 50px;
          text-align: center;
          color:#EF7521; }
 
         main h2{
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           font-weight: 300;
           line-height: 32px;
           text-align:justify;  
@@ -421,7 +401,7 @@
         }
         .otros{
             width: 100%;
-            font-family: 'Nexa', sans-serif;
+            font-family: 'Merriweather', serif;;
             font-size: 20px;
             text-align: center;
             font-weight: 500;
@@ -581,7 +561,7 @@
           border-radius: 5px;
           border: none;
           outline: none;
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           color: white;
           font-size: 1em;
           cursor: pointer;
@@ -770,7 +750,7 @@
         footer .col1{
           padding: 60px 0 0 50px;
           flex-basis: 20%;
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           font-size: 18px;
           line-height: 22px;
         }
@@ -781,7 +761,7 @@
          footer .col2{
           flex-basis: 20%;
           padding: 60px 0 0 50px;
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           font-size: 18px;
           line-height: 22px;
         }
@@ -792,7 +772,7 @@
           flex-basis: 15%;
           text-align: left;
           padding: 150px 0 0 0;
-          font-family: 'Nexa', sans-serif;
+          font-family: 'Merriweather', serif;;
           font-size: 12px;
           line-height: 22px;
         }
@@ -848,7 +828,7 @@
             color: white;
             font-size: 16px;
             text-shadow: 0px 2px 1px #65ad6b;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'Merriweather', serif;;
         }
         form section .input-container input,
         form section .input-container textarea {
@@ -859,7 +839,7 @@
             border: none;
             background: #d7ffdb;
             box-shadow: 0 2px 0px #77bd7d;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'Merriweather', serif;;
             font-size: 16px;
             color: #757575;
         }
@@ -904,7 +884,7 @@
 
         .hiddentxt {
             text-align: center;
-            font-family: 'Nexa',sans-serif;
+            font-family: 'Merriweather', serif;;
             font-weight: 600;
             font-size: 15px;
             line-height: 15px;
@@ -915,7 +895,7 @@
         .hiddentxt a {
             color: black;
             text-align: center;
-            font-family: 'Nexa',sans-serif;
+            font-family: 'Merriweather', serif;;
             font-weight: 600;
             font-size: 15px;
             line-height: 15px;
