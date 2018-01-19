@@ -5,7 +5,7 @@
        body {margin: 0; padding: 0;}
 
         h1, h2, h3, h4, h5, p {
-            font-family: 'Bitter', serif;
+            font-family: 'Lato', sans-serif;
             font-weight: normal;
         }
         .container {
@@ -29,7 +29,6 @@
          left: 0;
          width: 100%;
          height: 30px;
-         background-color:#E8E8E8;
          flex-direction: row;
          justify-content: flex-end;
          padding: 25px;
@@ -40,7 +39,7 @@
          margin-right: 10px;}
 
          .superior span{
-         font-family: 'Merriweather', serif;
+         font-family: 'Lato', sans-serif;
          font-size: 12px;
          padding: 10px 10px 0 0;
          }
@@ -56,13 +55,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: row;
-            }
+            flex-direction: row;}
 
         .logo{
-            width: 280px;
-            height: auto;
-            padding-top: 40px;}
+            width: 380px;
+            height: 200px;
+            padding-top: 30px; }
 
          .links ul{
             display: flex;
@@ -78,11 +76,11 @@
          }
           
          .links ul li a{
-         color: gray;
+         color: #000000;
          text-decoration: none;
          margin-left: 25px;
-         font-family: 'Merriweather', serif;;
-         font-size: 12px;
+         font-family: 'Lato', sans-serif;
+         font-size: 15px;
          font-weight: 600;
          }
 
@@ -123,7 +121,16 @@
           margin: 0 0 0 20px;
         }
 
-
+        .margin-seven {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .separator-line {
+            height: 2px;
+            margin: 0 auto;
+            width: 500px;
+            background-color: #EF7521;
+        }
         /* Arrow  */
         .caret {
           height: 0;
@@ -329,7 +336,7 @@
         }
         main p{
          font-size: 25px;
-         font-family: 'Bitter', serif;
+         font-family: 'Lato', sans-serif;
          font-weight: 300;
          line-height: 30px;
          text-align:justify;  
@@ -338,7 +345,7 @@
 
          main p.quienes{
          font-size: 18px;
-         font-family: 'Bitter', serif;
+         font-family: 'Lato', sans-serif;
          font-weight: 500; 
          line-height: 26px;
          text-align:justify; 
@@ -348,7 +355,7 @@
          main a {
           text-decoration: none;
           color: black;
-          font-family: 'Bitter', serif;
+          font-family: 'Lato', sans-serif;
           font-weight: 600;
          }
 
@@ -362,7 +369,7 @@
          color:#EF7521; }
 
         main h2{
-         font-family: 'Bitter', serif;
+          font-family: 'Lato', sans-serif;
           font-weight: 300;
           line-height: 28px;
           text-align:justify;
@@ -404,7 +411,7 @@
         }
         .otros{
             width: 100%;
-            font-family: 'Merriweather', serif;;
+            font-family: 'Lato', sans-serif;
             font-size: 20px;
             text-align: center;
             font-weight: 500;
@@ -564,7 +571,7 @@
           border-radius: 5px;
           border: none;
           outline: none;
-          font-family: 'Merriweather', serif;;
+          font-family: 'Lato', sans-serif;
           color: white;
           font-size: 1em;
           cursor: pointer;
@@ -751,10 +758,10 @@
           height: auto;
         }
         footer .col1{
-          padding: 60px 0 0 50px;
+          padding: 40px 0 0 50px;
           flex-basis: 20%;
-          font-family: 'Merriweather', serif;;
-          font-size: 18px;
+          font-family: 'Lato', sans-serif;
+          font-size: 12px;
           line-height: 22px;
         }
         footer .col1 a{
@@ -763,9 +770,9 @@
         }
          footer .col2{
           flex-basis: 20%;
-          padding: 60px 0 0 50px;
-          font-family: 'Merriweather', serif;;
-          font-size: 18px;
+          padding: 40px 0 0 50px;
+          font-family: 'Lato', sans-serif;
+          font-size: 14px;
           line-height: 22px;
         }
         footer .col2 a{
@@ -775,7 +782,7 @@
           flex-basis: 15%;
           text-align: left;
           padding: 150px 0 0 0;
-          font-family: 'Merriweather', serif;;
+          font-family: 'Lato', sans-serif;
           font-size: 12px;
           line-height: 22px;
         }
@@ -831,7 +838,7 @@
             color: white;
             font-size: 16px;
             text-shadow: 0px 2px 1px #65ad6b;
-            font-family: 'Merriweather', serif;;
+            font-family: 'Lato', sans-serif;
         }
         form section .input-container input,
         form section .input-container textarea {
@@ -842,7 +849,7 @@
             border: none;
             background: #d7ffdb;
             box-shadow: 0 2px 0px #77bd7d;
-            font-family: 'Merriweather', serif;;
+            font-family: 'Lato', sans-serif;
             font-size: 16px;
             color: #757575;
         }
@@ -887,7 +894,7 @@
 
         .hiddentxt {
             text-align: center;
-            font-family: 'Merriweather', serif;;
+            font-family: 'Lato', sans-serif;
             font-weight: 600;
             font-size: 15px;
             line-height: 15px;
@@ -898,7 +905,7 @@
         .hiddentxt a {
             color: black;
             text-align: center;
-            font-family: 'Merriweather', serif;;
+            font-family: 'Lato', sans-serif;
             font-weight: 600;
             font-size: 15px;
             line-height: 15px;
