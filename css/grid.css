@@ -5,8 +5,8 @@
        body {margin: 0; padding: 0;}
 
         h1, h2, h3, h4, h5, p {
-            font-family: 'Lato', sans-serif;
             font-weight: normal;
+            font-family: 'Libre Baskerville', serif;
         }
         .container {
             display: grid;
@@ -17,7 +17,6 @@
                     "footer footer footer";
             grid-template-columns: 20% 60% 20%;
             grid-template-rows: auto 1fr auto;
-            grid-gap: 10px;
             height: 100vh;
         }
 
@@ -39,7 +38,7 @@
          margin-right: 10px;}
 
          .superior span{
-         font-family: 'Lato', sans-serif;
+         font-family: 'Libre Baskerville', serif;
          font-size: 12px;
          padding: 10px 10px 0 0;
          }
@@ -51,17 +50,18 @@
         }
 
         .header{
-         background-color: gray;
+         background-color: #515c67;
          /*Flex*/
          display: flex;
          justify-content: center;
          align-items: center;
-         flex-direction: row;}
+         flex-direction: row;
+         height: 200px;}
 
         .logo{
-            width: 380px;
-            height: 200px;
-            padding-top: 30px; }
+         width: 220px;
+         height: auto;
+         padding-top: 30px; }
 
          .links ul{
          display: flex;
@@ -79,14 +79,14 @@
          .links ul li a{
          color: #ffffff;
          text-decoration: none;
-         margin-left: 25px;
+         margin-left: 50px;
          font-family: 'Libre Baskerville', serif;
          font-size: 12px;
          font-weight: 500;
          }
 
          .links ul li a:hover{
-         color: #5e6c77;
+         color: #141921;
          }
 
         /*Active dropdown nav item*/
@@ -128,7 +128,7 @@
         }
         .separator-line {
             height: 2px;
-            margin: 0 auto;
+            margin: 20px auto;
             width: 500px;
             background-color: #8c9aa5;
         }
@@ -170,9 +170,11 @@
           }
 
           .slides {
+            font-family: 'Libre Baskerville', serif;
             position: relative;
             height: 100%;
             background-color: #EF7521;
+
           }
 
           .slides li {
@@ -188,42 +190,24 @@
             background: url(../img/home_0.jpg) no-repeat center center;
             background-size: cover;
           }
-
           .slides li:nth-of-type(2) {
-            background: url(../img/salon_4.jpg) no-repeat center center;
-            background-size: cover;
-          }
-
-          .slides li:nth-of-type(3) {
             background: url(../img/home2.jpg) no-repeat center center;
             background-size: cover;
           }
 
+          .slides li:nth-of-type(3) {
+            background: url(../img/home3.jpg) no-repeat center center;
+            background-size: cover;
+          }
+
           .slides li:nth-of-type(4) {
-            background: url(../img/lamparas.jpg) no-repeat center center;
+            background: url(../img/home4.jpg) no-repeat center center;
             background-size: cover;
           }
-
           .slides li:nth-of-type(5) {
-            background: url(../img/salon_2.jpg) no-repeat center center;
+            background: url(../img/home5.jpg) no-repeat center center;
             background-size: cover;
           }
-
-          .slides li:nth-of-type(6) {
-            background: url(../img/mesa_alta.jpg) no-repeat center center;
-            background-size: cover;
-          }
-
-          .slides li:nth-of-type(7) {
-            background: url(../img/mesa_4.jpg) no-repeat center center;
-            background-size: cover;
-          }
-          .slides li:nth-of-type(8) {
-            background: url(../img/charla_2.jpg) no-repeat center center;
-            background-size: cover;
-          }
-
-
           .slides li.selected {
             z-index: 2;
             transform: translateX(0);
@@ -231,6 +215,9 @@
 
           .slides li.selected div h2{
             font-size: 70px;
+            margin-left: 150px;
+            text-align: left;
+            font-family: 'Libre Baskerville', serif;
             color: white;
             z-index: 2;
             transform: translateX(0);
@@ -255,7 +242,15 @@
 
           .slides h2 {
             margin-top: 0;
+            font-family: 'Libre Baskerville', serif;
           }
+           .slides p {
+            margin-top: 0;
+            margin-left: 150px;
+            text-align: left;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 30px;
+            }
           .slider-navigation a {
             position: absolute;
             z-index: 3;
@@ -337,7 +332,7 @@
         }
         main p{
          font-size: 25px;
-         font-family: 'Lato', sans-serif;
+         font-family: 'Libre Baskerville', serif;
          font-weight: 300;
          line-height: 30px;
          text-align:justify;  
@@ -346,8 +341,8 @@
 
          main p.quienes{
          font-size: 18px;
-         font-family: 'Lato', sans-serif;
-         font-weight: 500; 
+         font-family: 'Libre Baskerville', serif;
+         font-weight: 500;
          line-height: 26px;
          text-align:justify; 
          text-justify:distribute;
@@ -356,26 +351,33 @@
          main a {
           text-decoration: none;
           color: black;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Libre Baskerville', serif;
           font-weight: 600;
          }
 
         main p {
             font-size: 18px;
+            text-justify: distribute;
         }
         main h1{
          font-family: 'Libre Baskerville', serif;
          font-size: 50px;
          text-align: center;
-         color:#EF7521; }
+         color: #8c9aa5;}
 
         main h2{
           font-family: 'Libre Baskerville', serif;
           line-height: 28px;
-          text-align: left;
           text-justify: distribute;
+          text-align:justify;
           font-size: 17px;}
 
+        main h3 {
+            text-align: left;
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
         .col-2{
             column-count: 2;
             column-gap: 40px;
@@ -415,7 +417,7 @@
         }
         .otros{
             width: 100%;
-            font-family: 'Lato', sans-serif;
+            font-family: 'Libre Baskerville', serif;
             font-size: 20px;
             text-align: center;
             font-weight: 500;
@@ -575,7 +577,7 @@
           border-radius: 5px;
           border: none;
           outline: none;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Libre Baskerville', serif;
           color: white;
           font-size: 1em;
           cursor: pointer;
@@ -752,7 +754,7 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        background-color: #8c9aa5;
+        background-color: #c5c5c5;
         }
         footer .logo{
           flex-basis: 20%;
@@ -764,7 +766,7 @@
         footer .col1{
           padding: 40px 0 0 50px;
           flex-basis: 20%;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Libre Baskerville', serif;
           font-size: 12px;
           line-height: 22px;
         }
@@ -775,7 +777,7 @@
          footer .col2{
           flex-basis: 20%;
           padding: 40px 0 0 50px;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Libre Baskerville', serif;
           font-size: 14px;
           line-height: 22px;
         }
@@ -786,7 +788,7 @@
           flex-basis: 15%;
           text-align: left;
           padding: 150px 0 0 0;
-          font-family: 'Lato', sans-serif;
+          font-family: 'Libre Baskerville', serif;
           font-size: 12px;
           line-height: 22px;
         }
