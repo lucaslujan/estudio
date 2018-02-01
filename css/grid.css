@@ -6,7 +6,7 @@
 
         h1, h2, h3, h4, h5, p {
             font-weight: normal;
-            font-family: 'Libre Baskerville', serif;
+            font-family: 'Cabin', sans-serif;
         }
         .container {
             display: grid;
@@ -38,7 +38,7 @@
          margin-right: 10px;}
 
          .superior span{
-         font-family: 'Libre Baskerville', serif;
+         font-family: 'Cabin', sans-serif;
          font-size: 12px;
          padding: 10px 10px 0 0;
          }
@@ -80,7 +80,7 @@
          color: #ffffff;
          text-decoration: none;
          margin-left: 50px;
-         font-family: 'Libre Baskerville', serif;
+         font-family: 'Cabin', sans-serif;
          font-size: 12px;
          font-weight: 500;
          }
@@ -170,7 +170,7 @@
           }
 
           .slides {
-            font-family: 'Libre Baskerville', serif;
+            font-family: 'Cabin', sans-serif;
             position: relative;
             height: 100%;
             background-color: #EF7521;
@@ -217,7 +217,7 @@
             font-size: 70px;
             margin-left: 150px;
             text-align: left;
-            font-family: 'Libre Baskerville', serif;
+            font-family: 'Cabin', sans-serif;
             color: white;
             z-index: 2;
             transform: translateX(0);
@@ -242,13 +242,12 @@
 
           .slides h2 {
             margin-top: 0;
-            font-family: 'Libre Baskerville', serif;
-          }
+            font-family: 'Cabin', sans-serif;          }
            .slides p {
             margin-top: 0;
             margin-left: 150px;
             text-align: left;
-            font-family: 'Libre Baskerville', serif;
+            font-family: 'Cabin', sans-serif;
             font-size: 30px;
             }
           .slider-navigation a {
@@ -332,7 +331,7 @@
         }
         main p{
          font-size: 25px;
-         font-family: 'Libre Baskerville', serif;
+         font-family: 'Cabin', sans-serif;
          font-weight: 300;
          line-height: 30px;
          text-align:justify;  
@@ -341,7 +340,7 @@
 
          main p.quienes{
          font-size: 18px;
-         font-family: 'Libre Baskerville', serif;
+         font-family: 'Cabin', sans-serif;
          font-weight: 500;
          line-height: 26px;
          text-align:justify; 
@@ -351,7 +350,7 @@
          main a {
           text-decoration: none;
           color: black;
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           font-weight: 600;
          }
 
@@ -360,13 +359,13 @@
             text-justify: distribute;
         }
         main h1{
-         font-family: 'Libre Baskerville', serif;
+         font-family: 'Cabin', sans-serif;
          font-size: 50px;
          text-align: center;
          color: #8c9aa5;}
 
         main h2{
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           line-height: 28px;
           text-justify: distribute;
           text-align:justify;
@@ -417,7 +416,7 @@
         }
         .otros{
             width: 100%;
-            font-family: 'Libre Baskerville', serif;
+            font-family: 'Cabin', sans-serif;
             font-size: 20px;
             text-align: center;
             font-weight: 500;
@@ -577,7 +576,7 @@
           border-radius: 5px;
           border: none;
           outline: none;
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           color: white;
           font-size: 1em;
           cursor: pointer;
@@ -766,7 +765,7 @@
         footer .col1{
           padding: 40px 0 0 50px;
           flex-basis: 20%;
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           font-size: 12px;
           line-height: 22px;
         }
@@ -777,7 +776,7 @@
          footer .col2{
           flex-basis: 20%;
           padding: 40px 0 0 50px;
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           font-size: 14px;
           line-height: 22px;
         }
@@ -788,7 +787,7 @@
           flex-basis: 15%;
           text-align: left;
           padding: 150px 0 0 0;
-          font-family: 'Libre Baskerville', serif;
+          font-family: 'Cabin', sans-serif;
           font-size: 12px;
           line-height: 22px;
         }
