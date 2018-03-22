@@ -44,50 +44,50 @@
          }
 
 
-         /* header*/
+        /* header*/
         header {
-            grid-area: header;
-        }
+            grid-area: header;}
 
         .header{
-         background-color: #515c67;
-         /*Flex*/
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: row;
-         height: 200px;}
-
+            background-color: white;
+            /*Flex*/
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
         .logo{
-         width: 220px;
-         height: auto;
-         padding-top: 30px; }
+            width: 280px;
+            height: auto;
+            margin: 50px 0 20px 30px;}
 
-         .links ul{
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
-         padding: 70px 10px 0 0;
-         flex-wrap: wrap;
-         margin-right: 75px;
+        .links ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 70px 10px 0 0;
+            flex-wrap: wrap;
+            margin-right: 75px;
 
-         }
-         .links li.dropdown{
-          padding-right: 8px;
-         }
-          
-         .links ul li a{
-         color: #ffffff;
-         text-decoration: none;
-         margin-left: 50px;
-         font-family: 'Cabin', sans-serif;
-         font-size: 12px;
-         font-weight: 500;
-         }
+        }
 
-         .links ul li a:hover{
-         color: #141921;
-         }
+        .links li.dropdown{
+            padding-right: 8px;
+        }
+
+        .links ul li a{
+            color: gray;
+            text-decoration: none;
+            margin-left: 25px;
+            font-family: 'Nexa', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .links ul li a:hover{
+            color:#EF7521;
+        }
+
 
         /*Active dropdown nav item*/
         .links ul li:hover > a{
@@ -1009,15 +1009,15 @@
             .fa.fa-circle{
                 font-size: 7px;
             }
-            .logo{
-             width: 75%;
-             height:auto;
-             padding-top: 45px;
-             margin: 0;
-            }
             .header{
               width: 100%;
               flex-direction: column;
+            }
+            .logo{
+                width: 75%;
+                height: auto;
+                padding-top: 45px;
+                margin: 0;
             }
             .links ul{
                 margin: 0;
